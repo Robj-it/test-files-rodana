@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+  
+    stages {
+        stage ('test'){
+            steps{
+                echo "opdracht 7" 
+            }
+        }
+        stage('fetch code') {
+            steps {
+                // Get some code from a GitHub repository
+            }
+        }
+    }
+}
